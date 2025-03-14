@@ -57,20 +57,22 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃𝐉𝐀𝐕𝐈𝐄𝐋 𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍𝐒
-┃𝐀𝐑𝐄 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋𝐘
-┃𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃💙
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🐞 || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = 𝐉𝐀𝐕𝐈𝐄𝐋 𝐓𝐄𝐂𝐇
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-🐞 || YouTube Channel = https://www.youtube.com/@pop_kid254
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l
-Wanna talk? http://wa.me/254111385747?
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*♥️JAVIEL AND POPKID♥️*
+*_Session Connected By 𝙳𝙰𝚁𝙺/𝙱𝚄𝙶_𝚇_*
+*_Made With 🤍_*
+______________________________________
+╔════◇
+║ *『AMAZING YOU'VE CHOSEN SIGMA MD』*
+║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+╚════════════════════════╝
+╔═════◇
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❒ *Owner:* _𝙳𝙰𝚁𝙺/𝙱𝚄𝙶_𝚇
+║❒ *Repo:* _https://github.com/Jaydendev112/SIGMA-md
+║❒ *WaGroup:* _https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+║❒ *Bot:* _SIGMA MD
+╚════════════════════════╝
+_____________________________________
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
