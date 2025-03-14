@@ -59,20 +59,21 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let TREX_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-𝐈𝐓𝐒 𝐏𝐎𝐏𝐊𝐈𝐃 𝐌𝐃 𝐁𝐎𝐓 
-𝐘𝐎𝐔 𝐀𝐑𝐄 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃
-> 𝐃𝐄𝐕 𝐏𝐎𝐏𝐊𝐈𝐃
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-𝐏𝐎𝐏𝐊𝐈𝐃 𝐏𝐑𝐎𝐉𝐄𝐂𝐓𝐒
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐏𝐀𝐆𝐄 = https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄 𝐕𝐈𝐀
-𝐌𝐘 𝐋𝐈𝐍𝐊?https://wa.me/2544732297194?
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*𝐏𝐎𝐏𝐊𝐈𝐃*
+*_Session Connected By 𝙳𝙰𝚁𝙺/𝙱𝚄𝙶_𝚇_*
+*_Made With 🤍_*
+______________________________________
+╔════◇
+║ *『AMAZING YOU'VE CHOSEN SIGMA MD』*
+║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+╚════════════════════════╝
+╔═════◇
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❒ *Owner:* _https://wa.me/message/254107065646
+║❒ *Repo:* _https://github.com/Jaydendev112/SIGMA-md
+║❒ *WaGroup:* _https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+║❒ *Bot:* _SIGMA MD
+╚════════════════════════╝
 _____________________________________
 	
 _DONT FORGET TO FORK AND STAR MY REPO_`
