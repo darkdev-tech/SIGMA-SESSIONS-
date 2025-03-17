@@ -57,22 +57,23 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Session Connected By 𝙳𝙰𝚁𝙺/𝙱𝚄𝙶_𝚇_*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『AMAZING YOU'VE CHOSEN SIGMA MD』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Owner:* _𝙳𝙰𝚁𝙺/𝙱𝚄𝙶_𝚇
-║❒ *Repo:* _https://github.com/Jaydendev112/SIGMA-md
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
-║❒ *Bot:* _SIGMA MD
-╚════════════════════════╝
-_____________________________________
+┏━━━━━━━━━━━━━━
+┃DARK-MD SESSION IS 
+┃SUCCESSFULLY
+┃CONNECTED ✅🔥
+┗━━━━━━━━━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❶ || Creator = 𖥘🕷️DARK/TECH🕸️𖥘
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❷ || https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❸ || Owner = https://wa.me/254107065646
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❺ || Bot Repo = https://github.com/Jaydendev112/DARK-md
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❻ || YouTube = https://youtube.com/@javiel_dev?si=ToFC1idxek0hmzy3
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+©DEVELOPED BY DARK/TECH_'
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
