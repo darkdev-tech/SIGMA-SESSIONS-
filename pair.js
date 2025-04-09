@@ -54,26 +54,25 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'QUEEN' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'QUEEN~' + b64data });
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃DARK-MD SESSION IS 
+┃QUEEN-MD SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘🕷️DARK/TECH🕸️𖥘
+❶ || Creator = 𖥘QUEEN TECH𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❷ || https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❸ || Owner = https://wa.me/254107065646
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/Jaydendev112/DARK-md
+❺ || Bot Repo = https://github.com/darkdev-tech
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || YouTube = https://youtube.com/@javiel_dev?si=ToFC1idxek0hmzy3
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©DEVELOPED BY DARK/TECH_'
+©DEVELOPED BY QUEEN TECH_'
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
