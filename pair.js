@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❸ || Owner = https://wa.me/254107065646
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/darkdev-tech
+❺ || Bot Repo = https://github.com/darkdev-tech/Queen-md
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©DEVELOPED BY QUEEN TECH_'
